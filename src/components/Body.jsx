@@ -9,10 +9,19 @@ function Body() {
 		setImg(index);
 		setImgBorderIndex(index);
 	}
-
-	const [time, setTime] = useState(new Date().toLocaleTimeString());
+	let date = new Date();
+	let hour = date.getHours();
+	let min = date.getMinutes();
+	let sec = date.getSeconds();
+	let currTime = hour + ":" + min + ":" + sec;
+	const [time, setTime] = useState(currTime);
 	function updateTime() {
-		setTime(new Date().toLocaleTimeString());
+		let newDate = new Date();
+		let newHour = newDate.getHours();
+		let newMin = newDate.getMinutes();
+		let newSec = newDate.getSeconds();
+		let newTime = newHour + ":" + newMin + ":" + newSec;
+		setTime(newTime);
 	}
 	setInterval(updateTime, 1000);
 
