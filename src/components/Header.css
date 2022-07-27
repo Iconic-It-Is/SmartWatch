@@ -1,0 +1,12 @@
+.header {
+	background-color: #37475a;
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	/* to make topbar responsive */
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 10px;
+}
