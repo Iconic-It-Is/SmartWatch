@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SmartWatch/static/css/main.19cadc8a.css",
+    "main.js": "/SmartWatch/static/js/main.730d1570.js",
+    "index.html": "/SmartWatch/index.html",
+    "main.19cadc8a.css.map": "/SmartWatch/static/css/main.19cadc8a.css.map",
+    "main.730d1570.js.map": "/SmartWatch/static/js/main.730d1570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19cadc8a.css",
+    "static/js/main.730d1570.js"
+  ]
+}
